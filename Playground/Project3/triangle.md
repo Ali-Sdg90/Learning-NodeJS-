@@ -1,0 +1,10 @@
+          O          
+         OOO         
+        OOOOO        
+       OOOOOOO       
+      OOOOOOOOO      
+     OOOOOOOOOOO     
+    OOOOOOOOOOOOO    
+   OOOOOOOOOOOOOOO   
+  OOOOOOOOOOOOOOOOO  
+ OOOOOOOOOOOOOOOOOOO 
