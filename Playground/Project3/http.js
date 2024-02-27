@@ -11,7 +11,10 @@ const showTriangle = (triangle) => {
             res.end();
         }
     });
-    server.listen(9093);
+    
+    server.listen(9093,()=>{
+        console.log("Server listening on Port 9093")
+    });
 };
 
 (async () => {
