@@ -22,10 +22,14 @@ const readConfig = async () => {
 
 async function getStream() {
     const config = await readConfig();
+    const configJSON = JSON.parse(config);
+
     const streamOptions = {
-        highWaterMark: config.charsInRow + 1,
+        highWaterMark: Number(configJSON.charsInRow) + 1,
         encoding: "utf8",
     };
+
+    // console.log(config);
 
     return createReadStream("./bigText.txt", streamOptions);
 }

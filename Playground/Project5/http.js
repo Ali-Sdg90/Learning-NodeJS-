@@ -5,6 +5,8 @@ http.createServer(async (req, res) => {
     if (req.url === "/") {
         const showData = await incomeData();
 
+        console.log(showData);
+
         showData.forEach((row) => {
             res.write(
                 `<pre style="font-size: 30px; text-align: center">${row}</pre>`

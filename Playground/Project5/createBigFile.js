@@ -4,26 +4,28 @@ const { createWriteStream, createReadStream } = require("fs");
 
 const configJSON = createReadStream("./config.json", "utf8");
 
-const readConfig = new Promise((resolve, rejects) => {
-    let data = "";
+const readConfig = async () => {
+    return new Promise((resolve, rejects) => {
+        let data = "";
 
-    configJSON.on("data", (chunk) => {
-        data += chunk;
-    });
+        configJSON.on("data", (chunk) => {
+            data += chunk;
+        });
 
-    configJSON.on("end", () => {
-        resolve(JSON.parse(data));
-    });
+        configJSON.on("end", () => {
+            resolve(JSON.parse(data));
+        });
 
-    configJSON.on("error", (err) => {
-        rejects(err);
+        configJSON.on("error", (err) => {
+            rejects(err);
+        });
     });
-});
+};
 
 const stream = createWriteStream("./bigText.txt", "utf8");
 
 (async () => {
-    const readConfigObj = await readConfig;
+    const readConfigObj = await readConfig();
 
     const rowNumber = readConfigObj.numberOfRows;
 
