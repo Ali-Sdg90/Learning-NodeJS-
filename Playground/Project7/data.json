@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "age": 20,
+        "grade": "A",
+        "courses": ["Mathematics", "Physics", "Chemistry"]
+    },
+    {
+        "id": 2,
+        "name": "Jane Smith",
+        "age": 21,
+        "grade": "B",
+        "courses": ["Computer Science", "English Literature"]
+    },
+    {
+        "id": 3,
+        "name": "Alice Johnson",
+        "age": 19,
+        "grade": "A+",
+        "courses": ["Biology", "History"]
+    },
+    {
+        "id": 4,
+        "name": "Bob Brown",
+        "age": 22,
+        "grade": "C",
+        "courses": ["Economics", "Sociology"]
+    },
+    {
+        "id": 5,
+        "name": "Michael Davis",
+        "age": 23,
+        "grade": "B+",
+        "courses": ["Psychology", "Political Science"]
+    },
+    {
+        "id": 6,
+        "name": "Emily Wilson",
+        "age": 20,
+        "grade": "A-",
+        "courses": ["Art History", "Spanish"]
+    },
+    {
+        "id": 7,
+        "name": "David Lee",
+        "age": 21,
+        "grade": "B",
+        "courses": ["Geography", "Music"]
+    },
+    {
+        "id": 8,
+        "name": "Sophia Taylor",
+        "age": 19,
+        "grade": "A",
+        "courses": ["Chemistry", "Literature"]
+    },
+    {
+        "id": 9,
+        "name": "Daniel Clark",
+        "age": 22,
+        "grade": "B-",
+        "courses": ["Statistics", "Anthropology"]
+    },
+    {
+        "id": 10,
+        "name": "Olivia Martinez",
+        "age": 20,
+        "grade": "A+",
+        "courses": ["Computer Science", "Mathematics"]
+    }
+]

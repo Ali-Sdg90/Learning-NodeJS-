@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Random Index</title>
+    </head>
+    <body>
+        <a class="anchor" href="/4">
+            <button class="btn">Go to index</button></a
+        >
+        <script>
+            const randomNumber = Math.floor(Math.random() * 11);
+            document.querySelector(
+                ".btn"
+            ).textContent = `Go to index ${randomNumber}`;
+            document
+                .querySelector(".anchor")
+                .setAttribute("href", `/${randomNumber}`);
+        </script>
+    </body>
+</html>
