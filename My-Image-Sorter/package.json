@@ -1,0 +1,15 @@
+{
+  "name": "my-image-sorter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "exiftool-vendored": "^36.0.0"
+  }
+}
